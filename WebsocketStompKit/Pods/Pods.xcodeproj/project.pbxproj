@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092664140B4298B59E8849A07FADAF19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0D714CD87992691C96C970A38A7E9CDC /* jetfire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A35FEA3BA87A7193DA6B06B8E9C92EA /* jetfire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EEF7FC277B7C306DC6A85C6B69592FD /* Pods-WebsocketStompKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D446D67261B32CC14477B8852B71DB87 /* Pods-WebsocketStompKit-dummy.m */; };
+		323E9F388B2E99FF47E0AB3C891A63E1 /* Pods-WebsocketStompKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6252898A8B663F20B9A228229584F3D6 /* Pods-WebsocketStompKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34FCCB399791DFA808DF95A13A27561C /* jetfire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AE512A73A20804AE6557E3A669BB44 /* jetfire-dummy.m */; };
+		574E749CB6E62D7ED3CA801FD8541C0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		95D8156DFD8AA8495A17EFE25ACCF751 /* JFRSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 894DA79A076551E1473EEC024D2578A1 /* JFRSecurity.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A8F8E604FF57E607328D65E1197BEDE6 /* JFRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D28F393C47913E1E3C5819D3F36A2442 /* JFRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B36BCC956448FE257DFF8059ED87C793 /* JFRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E04DEAB4D8293CBBFA94FB2A0829E0 /* JFRWebSocket.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CB4A63CD6E3B5175271F737FBC871A8A /* JFRSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 858DAFCFFEAF8C59316D9CB64585D55C /* JFRSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBD9AB903ABB4E1BA0B274FD6F6DACFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC0FF292B96EDEFC2194EC1B985D0619;
+			remoteInfo = jetfire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A06E43B541F3EECD8F61B5F87F115C /* Pods-WebsocketStompKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebsocketStompKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A35FEA3BA87A7193DA6B06B8E9C92EA /* jetfire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jetfire-umbrella.h"; sourceTree = "<group>"; };
+		0C8ACEF2705AD1906021A7251CD503CD /* Pods_WebsocketStompKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WebsocketStompKit.framework; path = "Pods-WebsocketStompKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E1F2EF35E91C99D1C643DF90BBCAE2 /* jetfire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jetfire-prefix.pch"; sourceTree = "<group>"; };
+		30AE512A73A20804AE6557E3A669BB44 /* jetfire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jetfire-dummy.m"; sourceTree = "<group>"; };
+		4750CB54FB3583FE5D65E61EBA8C5D58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5324B227A84EF760FB93468D82575F7F /* Pods-WebsocketStompKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebsocketStompKit-resources.sh"; sourceTree = "<group>"; };
+		58E04DEAB4D8293CBBFA94FB2A0829E0 /* JFRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JFRWebSocket.m; sourceTree = "<group>"; };
+		6252898A8B663F20B9A228229584F3D6 /* Pods-WebsocketStompKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WebsocketStompKit-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		779433BA7272B36BF8C546415619EE2F /* Pods-WebsocketStompKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebsocketStompKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		836D7238AC19B0F89DA4092301A92AD7 /* Pods-WebsocketStompKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebsocketStompKit.debug.xcconfig"; sourceTree = "<group>"; };
+		858DAFCFFEAF8C59316D9CB64585D55C /* JFRSecurity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JFRSecurity.h; sourceTree = "<group>"; };
+		894DA79A076551E1473EEC024D2578A1 /* JFRSecurity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JFRSecurity.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D29680B81E1533FFD3617E94B85D08 /* jetfire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jetfire.xcconfig; sourceTree = "<group>"; };
+		A6FDF08B3B3F234A3C3CAB968D7CC0DA /* Pods-WebsocketStompKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebsocketStompKit.release.xcconfig"; sourceTree = "<group>"; };
+		BED148F02EB7A24AFAFEDF3515067B58 /* Pods-WebsocketStompKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WebsocketStompKit.modulemap"; sourceTree = "<group>"; };
+		C40A2F7056B8C3E1AA68E6B59ECB2067 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28F393C47913E1E3C5819D3F36A2442 /* JFRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JFRWebSocket.h; sourceTree = "<group>"; };
+		D446D67261B32CC14477B8852B71DB87 /* Pods-WebsocketStompKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebsocketStompKit-dummy.m"; sourceTree = "<group>"; };
+		DA9AD0DB7F1D5554E8144BF45FA31B4C /* jetfire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = jetfire.modulemap; sourceTree = "<group>"; };
+		EF6E054A8865784669F086AE7BD812A7 /* jetfire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = jetfire.framework; path = jetfire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DFBD8623A6230336EBC60BB525CE26 /* Pods-WebsocketStompKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebsocketStompKit-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9145FB9510A696BD5EA770BBFA9D93C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574E749CB6E62D7ED3CA801FD8541C0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74CC19AAD47B1E9909F4658D18B5A00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092664140B4298B59E8849A07FADAF19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2C158B610A6F927D23FC706E275025 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4750CB54FB3583FE5D65E61EBA8C5D58 /* Info.plist */,
+				DA9AD0DB7F1D5554E8144BF45FA31B4C /* jetfire.modulemap */,
+				A0D29680B81E1533FFD3617E94B85D08 /* jetfire.xcconfig */,
+				30AE512A73A20804AE6557E3A669BB44 /* jetfire-dummy.m */,
+				11E1F2EF35E91C99D1C643DF90BBCAE2 /* jetfire-prefix.pch */,
+				0A35FEA3BA87A7193DA6B06B8E9C92EA /* jetfire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/jetfire";
+			sourceTree = "<group>";
+		};
+		545E28D2FE887C435710A0F46427C22F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D32CC0B00A0FC54349C6431C4E33026 /* Pods-WebsocketStompKit */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5D32CC0B00A0FC54349C6431C4E33026 /* Pods-WebsocketStompKit */ = {
+			isa = PBXGroup;
+			children = (
+				C40A2F7056B8C3E1AA68E6B59ECB2067 /* Info.plist */,
+				BED148F02EB7A24AFAFEDF3515067B58 /* Pods-WebsocketStompKit.modulemap */,
+				07A06E43B541F3EECD8F61B5F87F115C /* Pods-WebsocketStompKit-acknowledgements.markdown */,
+				779433BA7272B36BF8C546415619EE2F /* Pods-WebsocketStompKit-acknowledgements.plist */,
+				D446D67261B32CC14477B8852B71DB87 /* Pods-WebsocketStompKit-dummy.m */,
+				F9DFBD8623A6230336EBC60BB525CE26 /* Pods-WebsocketStompKit-frameworks.sh */,
+				5324B227A84EF760FB93468D82575F7F /* Pods-WebsocketStompKit-resources.sh */,
+				6252898A8B663F20B9A228229584F3D6 /* Pods-WebsocketStompKit-umbrella.h */,
+				836D7238AC19B0F89DA4092301A92AD7 /* Pods-WebsocketStompKit.debug.xcconfig */,
+				A6FDF08B3B3F234A3C3CAB968D7CC0DA /* Pods-WebsocketStompKit.release.xcconfig */,
+			);
+			name = "Pods-WebsocketStompKit";
+			path = "Target Support Files/Pods-WebsocketStompKit";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C6EE2932C7FE5274A5BA87F7F3FC6943 /* Pods */,
+				EA9DE479D6CB41594F074D83FC05904F /* Products */,
+				545E28D2FE887C435710A0F46427C22F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AA2F895ECC6BD0740EB74ED8B66614B9 /* jetfire */ = {
+			isa = PBXGroup;
+			children = (
+				858DAFCFFEAF8C59316D9CB64585D55C /* JFRSecurity.h */,
+				894DA79A076551E1473EEC024D2578A1 /* JFRSecurity.m */,
+				D28F393C47913E1E3C5819D3F36A2442 /* JFRWebSocket.h */,
+				58E04DEAB4D8293CBBFA94FB2A0829E0 /* JFRWebSocket.m */,
+				1A2C158B610A6F927D23FC706E275025 /* Support Files */,
+			);
+			name = jetfire;
+			path = jetfire;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6EE2932C7FE5274A5BA87F7F3FC6943 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F895ECC6BD0740EB74ED8B66614B9 /* jetfire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA9DE479D6CB41594F074D83FC05904F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6E054A8865784669F086AE7BD812A7 /* jetfire.framework */,
+				0C8ACEF2705AD1906021A7251CD503CD /* Pods_WebsocketStompKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5400D017E6F99FD195FC095F18E955DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D714CD87992691C96C970A38A7E9CDC /* jetfire-umbrella.h in Headers */,
+				CB4A63CD6E3B5175271F737FBC871A8A /* JFRSecurity.h in Headers */,
+				A8F8E604FF57E607328D65E1197BEDE6 /* JFRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B598171F4D4E4D40E430FCB165376CED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323E9F388B2E99FF47E0AB3C891A63E1 /* Pods-WebsocketStompKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AC6A22DC1AFBC4C6FB60DA95044AFB23 /* Pods-WebsocketStompKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BB3A417CD3846879CC8BC77A6FFDE58 /* Build configuration list for PBXNativeTarget "Pods-WebsocketStompKit" */;
+			buildPhases = (
+				6AF2E3FE2194A351C84BBF2D48A1E9DB /* Sources */,
+				A74CC19AAD47B1E9909F4658D18B5A00 /* Frameworks */,
+				B598171F4D4E4D40E430FCB165376CED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2D82D6C81E3746AEDC82D358170C6E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-WebsocketStompKit";
+			productName = "Pods-WebsocketStompKit";
+			productReference = 0C8ACEF2705AD1906021A7251CD503CD /* Pods_WebsocketStompKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC0FF292B96EDEFC2194EC1B985D0619 /* jetfire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F110BC0D624BFCBB60F8896C57643DE /* Build configuration list for PBXNativeTarget "jetfire" */;
+			buildPhases = (
+				312E11ED1DCA8B873959EE41D86354C4 /* Sources */,
+				9145FB9510A696BD5EA770BBFA9D93C2 /* Frameworks */,
+				5400D017E6F99FD195FC095F18E955DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jetfire;
+			productName = jetfire;
+			productReference = EF6E054A8865784669F086AE7BD812A7 /* jetfire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EA9DE479D6CB41594F074D83FC05904F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0FF292B96EDEFC2194EC1B985D0619 /* jetfire */,
+				AC6A22DC1AFBC4C6FB60DA95044AFB23 /* Pods-WebsocketStompKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312E11ED1DCA8B873959EE41D86354C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FCCB399791DFA808DF95A13A27561C /* jetfire-dummy.m in Sources */,
+				95D8156DFD8AA8495A17EFE25ACCF751 /* JFRSecurity.m in Sources */,
+				B36BCC956448FE257DFF8059ED87C793 /* JFRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF2E3FE2194A351C84BBF2D48A1E9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEF7FC277B7C306DC6A85C6B69592FD /* Pods-WebsocketStompKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2D82D6C81E3746AEDC82D358170C6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = jetfire;
+			target = BC0FF292B96EDEFC2194EC1B985D0619 /* jetfire */;
+			targetProxy = FBD9AB903ABB4E1BA0B274FD6F6DACFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36CEBAECD0945EE897FF9D95964EC380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FDF08B3B3F234A3C3CAB968D7CC0DA /* Pods-WebsocketStompKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WebsocketStompKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebsocketStompKit/Pods-WebsocketStompKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WebsocketStompKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81A4D5ECCEB5D9700123BF005B87B657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D29680B81E1533FFD3617E94B85D08 /* jetfire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/jetfire/jetfire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/jetfire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/jetfire/jetfire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = jetfire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF8A04DED683398BA133A8AEB772F62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836D7238AC19B0F89DA4092301A92AD7 /* Pods-WebsocketStompKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WebsocketStompKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebsocketStompKit/Pods-WebsocketStompKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WebsocketStompKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB045BA49A38DBD4F9742B5ACEF65D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D29680B81E1533FFD3617E94B85D08 /* jetfire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/jetfire/jetfire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/jetfire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/jetfire/jetfire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = jetfire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BB3A417CD3846879CC8BC77A6FFDE58 /* Build configuration list for PBXNativeTarget "Pods-WebsocketStompKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8A04DED683398BA133A8AEB772F62A /* Debug */,
+				36CEBAECD0945EE897FF9D95964EC380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F110BC0D624BFCBB60F8896C57643DE /* Build configuration list for PBXNativeTarget "jetfire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A4D5ECCEB5D9700123BF005B87B657 /* Debug */,
+				DB045BA49A38DBD4F9742B5ACEF65D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

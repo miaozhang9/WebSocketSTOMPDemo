@@ -1,0 +1,12 @@
+workspace ‘WebsocketStompKit.xcworkspace'
+platform :ios, ’8.0’
+inhibit_all_warnings!
+use_frameworks!
+def share
+   
+end
+target "WebsocketStompKit" do
+  pod 'jetfire', '~>0.1.2'
+ 
+    share
+end
