@@ -22,7 +22,6 @@ class ViewController: UIViewController, StompClientLibDelegate {
         button.titleLabel?.textColor = UIColor.black
         button.titleLabel?.font = UIFont.systemFont(ofSize: 11)
         button.backgroundColor = UIColor.yellow
-//        button.addTarget(self, action: #selector(click(_:)), for: .touchUpInside)
         button.addTarget(self, action:#selector(send(button:)), for:.touchUpInside)
        self.view.addSubview(button)
         
@@ -31,7 +30,6 @@ class ViewController: UIViewController, StompClientLibDelegate {
         button2.setTitleColor(UIColor.black, for: .normal)
         button2.titleLabel?.font = UIFont.systemFont(ofSize: 11)
         button2.backgroundColor = UIColor.yellow
-        //        button.addTarget(self, action: #selector(click(_:)), for: .touchUpInside)
         button2.addTarget(self, action:#selector(register(button:)), for:.touchUpInside)
         self.view.addSubview(button2)
         
