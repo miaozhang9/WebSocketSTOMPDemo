@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-//#import "WebsocketStompKit/WebsocketStompKit.h"
 #import "WebsocketStompKit.h"
 @interface ViewController ()
 
@@ -29,7 +28,6 @@
                    NSLog(@"%@", error);
                    return;
                }
-               
 //               [client subscribeTo:@"/app/sub" messageHandler:^(STOMPMessage *message) {
 //                    NSLog(@"/app/sub --- %@",message.body);
 //               }];
