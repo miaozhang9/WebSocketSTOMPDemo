@@ -18,8 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-    NSURL *websocketUrl = [NSURL URLWithString:@"http://172.18.19.97:8088/gs-guide-websocket/websocket"];//
+    NSURL *websocketUrl = [NSURL URLWithString:@"http://172.18.19.97:8088/gs-guide-websocket/websocket"];
     STOMPClient *client = [[STOMPClient alloc] initWithURL:websocketUrl webSocketHeaders:@{} useHeartbeat:YES];
+    
     // connect to the broker
     [client connectWithLogin:@""
                     passcode:@""
@@ -28,6 +29,7 @@
                    NSLog(@"%@", error);
                    return;
                }
+               
 //               [client subscribeTo:@"/app/sub" messageHandler:^(STOMPMessage *message) {
 //                    NSLog(@"/app/sub --- %@",message.body);
 //               }];
