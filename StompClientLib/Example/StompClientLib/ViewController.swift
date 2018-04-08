@@ -15,7 +15,6 @@ class ViewController: UIViewController, StompClientLibDelegate {
     var titleLab = UILabel();
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let button = UIButton(frame:CGRect(x:10, y:150, width:100, height:30))
         button.setTitle("发送", for:.normal) //普通状态下的文字
         button.setTitleColor(UIColor.black, for: .normal)
